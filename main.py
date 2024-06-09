@@ -49,7 +49,7 @@ bounds = (min_bound, max_bound)
 optimizer = ps.single.GlobalBestPSO(n_particles=120, dimensions=2, options=options, bounds=bounds)
 
 # Perform the optimization
-cost, pos = optimizer.optimize(fitness_function, iters=500)
+cost, pos = optimizer.optimize(fitness_function, iters=200)
 gateway.close()
 optimal_cpus = round(pos[0])
 optimal_ram = round(pos[1])*1000

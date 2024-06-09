@@ -1502,3 +1502,15 @@ ConnectionRefusedError: [Errno 61] Connection refused
 2024-06-09 16:08:02,296 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 4.75756906453703, best pos: [5.67967534 3.78609245]
 2024-06-09 16:09:15,139 - pyswarms.single.global_best - INFO - Optimize for 500 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
 2024-06-09 16:09:27,183 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 4.072204655194959, best pos: [3.0703654 1.9864281]
+2024-06-09 18:25:27,100 - pyswarms.single.global_best - INFO - Optimize for 500 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 18:25:39,279 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 4.07464045814132, best pos: [2.51868117 2.0235111 ]
+2024-06-09 18:26:36,889 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 18:26:41,731 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 4.074562182430886, best pos: [3.19076354 2.02176629]
+2024-06-09 18:28:30,079 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 18:28:35,383 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 4.07487865234674, best pos: [2.84486018 2.00372769]
+2024-06-09 18:32:30,123 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 18:32:35,915 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 6.11708139720573, best pos: [5.74167587 4.02837979]
+2024-06-09 18:37:17,098 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 18:37:23,435 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 5.637300160667559, best pos: [4.20759046 4.35900177]
+2024-06-09 21:49:44,949 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 21:49:51,059 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 5.6370009618986785, best pos: [4.28362127 4.35795141]
