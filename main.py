@@ -33,7 +33,7 @@ def fitness_function(x):
         normalized_execution_time = execution_time / math.sqrt(max_execution_time)
         # Calculate total resource usage
         total_resource_usage = cpus + ram / 1000
-        fitness_value = (0.7 * normalized_execution_time) + (0.3 * total_resource_usage)
+        fitness_value = (1.7 * normalized_execution_time) + (0.3 * total_resource_usage)
         fitness.append(fitness_value)
 
     return np.array(fitness)
