@@ -1409,3 +1409,84 @@ ConnectionRefusedError: [Errno 61] Connection refused
 2024-06-09 01:38:19,548 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1367.7362109081716, best pos: [4.43224604 1.00097574]
 2024-06-09 01:38:25,311 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
 2024-06-09 01:38:31,064 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1331.0232945756557, best pos: [3.46640628 1.00199565]
+2024-06-09 12:58:09,591 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 12:58:16,822 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1331.0424629212778, best pos: [2.92792762 1.00231512]
+2024-06-09 12:58:27,923 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 12:58:33,708 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1332.054084284795, best pos: [3.43199414 1.00250881]
+2024-06-09 12:58:40,169 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 12:58:45,916 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1338.4204912522846, best pos: [3.43674046 1.00861559]
+2024-06-09 12:59:10,958 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 12:59:16,736 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1342.702816191841, best pos: [2.84503331 1.01332101]
+2024-06-09 13:00:41,756 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:00:47,752 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1334.2095962077651, best pos: [3.00439824 1.00510068]
+2024-06-09 13:01:31,056 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:01:36,956 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1633.43862464754, best pos: [10.94812392  1.00261189]
+2024-06-09 13:02:37,107 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:02:43,363 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1560.3361472936701, best pos: [9.42463905 1.00134221]
+2024-06-09 13:03:19,513 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:03:25,411 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1508.442478030581, best pos: [5.17968853 1.00818956]
+2024-06-09 13:05:40,548 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:05:46,365 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1290.9372795066388, best pos: [5.1777398  1.00370875]
+2024-06-09 13:07:00,444 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:07:06,272 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1308.7747222222222, best pos: [6.37361884 1.00281438]
+2024-06-09 13:07:13,992 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:08:05,150 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:08:11,039 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1392.1864, best pos: [5.06591186 1.00150532]
+2024-06-09 13:11:14,167 - py4j.java_gateway - ERROR - An error occurred while trying to connect to the Java server (127.0.0.1:25333)
+Traceback (most recent call last):
+  File "/Users/leandrohoenen/PycharmProjects/pso-virtual-machine-resource-optimizer/.venv/lib/python3.12/site-packages/py4j/java_gateway.py", line 982, in _get_connection
+    connection = self.deque.pop()
+                 ^^^^^^^^^^^^^^^^
+IndexError: pop from an empty deque
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/leandrohoenen/PycharmProjects/pso-virtual-machine-resource-optimizer/.venv/lib/python3.12/site-packages/py4j/java_gateway.py", line 1132, in start
+    self.socket.connect((self.address, self.port))
+ConnectionRefusedError: [Errno 61] Connection refused
+2024-06-09 13:11:28,451 - pyswarms.single.global_best - INFO - Optimize for 500 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 13:11:56,779 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1390.0264, best pos: [5.46142366 1.00049529]
+2024-06-09 15:23:33,585 - py4j.java_gateway - ERROR - An error occurred while trying to connect to the Java server (127.0.0.1:25333)
+Traceback (most recent call last):
+  File "/Users/leandrohoenen/PycharmProjects/pso-virtual-machine-resource-optimizer/.venv/lib/python3.12/site-packages/py4j/java_gateway.py", line 982, in _get_connection
+    connection = self.deque.pop()
+                 ^^^^^^^^^^^^^^^^
+IndexError: pop from an empty deque
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/leandrohoenen/PycharmProjects/pso-virtual-machine-resource-optimizer/.venv/lib/python3.12/site-packages/py4j/java_gateway.py", line 1132, in start
+    self.socket.connect((self.address, self.port))
+ConnectionRefusedError: [Errno 61] Connection refused
+2024-06-09 15:23:43,752 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-06-09 15:23:50,873 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1313.216721257988, best pos: [2.63583435 1.00174554]
+2024-06-09 15:24:20,045 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:24:25,832 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1492.7171891687726, best pos: [8.38022417 1.00087295]
+2024-06-09 15:24:36,826 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:24:42,696 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1326.8814904491971, best pos: [3.31070354 1.01504092]
+2024-06-09 15:28:10,811 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:28:17,281 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 656.1812222222222, best pos: [2.66791082 1.002187  ]
+2024-06-09 15:40:33,024 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:44:41,285 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:44:47,384 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.8860447866722925, best pos: [1.04213787 1.76801291]
+2024-06-09 15:45:56,400 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:46:02,350 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.8695965158222891, best pos: [1.25573529 1.70318875]
+2024-06-09 15:47:10,886 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:47:16,865 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.8955958489480196, best pos: [1.00444267 1.71446484]
+2024-06-09 15:47:33,801 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:52:55,584 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:53:01,593 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.5625928440908408, best pos: [3.16922583 2.01383459]
+2024-06-09 15:53:19,300 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:53:25,274 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.561735040066764, best pos: [3.31196429 2.00905031]
+2024-06-09 15:58:27,788 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:58:33,751 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.6121191166239823, best pos: [2.81295596 2.22292995]
+2024-06-09 15:58:41,507 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:58:47,252 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.7672191166239823, best pos: [3.26046977 2.73978314]
+2024-06-09 15:58:56,830 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:59:02,748 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.5598518650051547, best pos: [3.0386819 1.9972992]
+2024-06-09 15:59:33,443 - pyswarms.single.global_best - INFO - Optimize for 500 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 15:59:44,592 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.55352009064954, best pos: [3.26064279 1.92587027]
+2024-06-09 15:59:52,853 - pyswarms.single.global_best - INFO - Optimize for 500 iters with {'c1': 0.5, 'c2': 0.4, 'w': 0.9}
+2024-06-09 16:00:04,187 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.5525252624137327, best pos: [2.69078277 1.92042848]
