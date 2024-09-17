@@ -44,9 +44,20 @@ def fitness_function(x):
 
         # Normalize execution time
         normalized_execution_time = execution_time_normalizer(cpus, ram)
+
         # Compute and normalize resource usage
         normalized_resource_usage = resource_normalizer(ram, cpus)
-        fitness_value = (1.7*normalized_execution_time) + (0.3*normalized_resource_usage)
+
+        # Dynamically adjust the multiplicator based on the range of execution time vs resource usage
+        local_range_of_execution_time = max_execution_time - min_execution_time
+        local_range_of_resource_usage = max_resources - min_resources
+
+        # Scale the execution time weight based on the relative ranges
+        execution_time_weight = local_range_of_execution_time / local_range_of_resource_usage
+
+        # Compute fitness value
+        # fitness_value = (10*normalized_execution_time) + (0.3*normalized_resource_usage)
+        fitness_value = (execution_time_weight*normalized_execution_time) + normalized_resource_usage
         fitness.append(fitness_value)
 
     return np.array(fitness)
