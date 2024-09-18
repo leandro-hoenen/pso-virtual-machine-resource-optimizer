@@ -133,3 +133,15 @@ ConnectionRefusedError: [Errno 61] Connection refused
 2024-09-17 23:49:51,035 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.5602894736842108, best pos: [14.49281281  9.18138646]
 2024-09-17 23:50:32,837 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
 2024-09-17 23:50:37,842 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.8577105263157896, best pos: [16.9953342  17.59286103]
+2024-09-18 12:30:43,675 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
+2024-09-18 12:30:48,767 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.08771052631578945, best pos: [2.51924226 2.22349404]
+2024-09-18 12:37:02,797 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
+2024-09-18 12:37:07,915 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.216947368421053, best pos: [6.30779561 4.13362427]
+2024-09-18 12:37:13,390 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
+2024-09-18 12:37:17,795 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.216947368421053, best pos: [5.83257065 4.13449042]
+2024-09-18 12:37:21,234 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
+2024-09-18 12:37:25,687 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.216947368421053, best pos: [5.93321176 4.13385289]
+2024-09-18 12:45:43,969 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
+2024-09-18 12:45:49,252 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.8966315789473684, best pos: [17.72005356 18.07173256]
+2024-09-18 12:50:28,099 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9}
+2024-09-18 12:50:33,108 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.216947368421053, best pos: [6.0439138  4.13384654]
